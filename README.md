@@ -1,24 +1,26 @@
 # Mine Express
 
-Sous la surface, chaque filon est une promesse. Extrais des minerais, surveille ton oxygène et rentre au camp pour améliorer ton équipement.
+Atteins ton objectif net en un nombre limité de descentes. Choisis un kit, surveille le coût du retour et décide quels minerais méritent ton oxygène et la place dans ton sac.
 
 **Android 7.0+ avec Android System WebView à jour · 100 % hors ligne dans l’APK · Sans compte · Sans publicité · MIT**
 
 - [Jouer sur la page du jeu](https://zachiran42.github.io/mine-express/)
-- [Télécharger l’APK signé de test](docs/downloads/mine-express-1.0.0.apk)
+- [Télécharger l’APK signé de test](docs/downloads/mine-express-1.1.0.apk)
 - [Signaler un problème](https://github.com/Zachiran42/mine-express/issues)
 
 ## Jouer
 
-1. Touche une case voisine ou utilise les flèches pour creuser.
-2. Surveille ton oxygène et remonte déposer tes minerais.
-3. Au camp, investis tes gains dans ton équipement.
+1. Tapote les flèches ou une direction autour du mineur.
+2. Compare le coût du retour à ton oxygène avant de pousser plus loin.
+3. Choisis ton kit : réserve, sac ou foreuse. Les frais réduisent ton bénéfice net.
 
-Sur ordinateur : flèches, WASD ou ZQSD. Échap met le jeu en pause. Une partie en cours et la progression sont conservées localement. Les données de la démo web et celles de l’APK sont indépendantes.
+TÉLÉPHONE · Flèches ou tap directionnel · ORDINATEUR · Flèches / ZQSD · PAUSE · Échap
+
+La progression reste stockée localement. Les règles de la version1.1 changent : les anciennes parties en cours redémarrent, les déblocages et améliorations permanentes sont conservés.
 
 ## Installer sur Android
 
-Télécharger l’APK depuis ce dépôt ou sa page. Ouvrir le fichier sur Android et autoriser l’installation pour l’application utilisée pour le téléchargement si Android le demande. L’APK 1.0.0 est une version de test signée avec une clé de développement. Une signature de production stable est recommandée avant une distribution durable.
+Télécharger l’APK depuis ce dépôt ou sa page. Ouvrir le fichier sur Android et autoriser l’installation pour l’application utilisée pour le téléchargement si Android le demande. L’APK 1.1.0 est une version de test signée avec une clé de développement. Une signature de production stable est recommandée avant une distribution durable.
 
 ## Développer et compiler
 
@@ -48,6 +50,10 @@ Aucune permission INTERNET dans le manifeste Android. Pas de télémétrie ni d�
 
 Le code, les graphismes procéduraux et les textes originaux sont sous [licence MIT](LICENSE). Le wrapper Gradle et les outils de compilation tiers conservent leurs propres licences.
 
-## Version 1.0.0
+## Version 1.1.0
 
-Première version jouable. Le comportement tactile et les performances peuvent varier selon le WebView Android de l’appareil.
+Version enrichie avec commandes et difficulté revues. Le comportement tactile et les performances peuvent varier selon le WebView Android de l’appareil.
+
+## Nouveautés 1.1.0
+
+Oxygène consommé par action, roches et gaz coûteux, valeurs de minerais différentes, capacité de sac réduite, kits exclusifs payants et caches d’oxygène optionnelles. Objectif de bénéfice net et descentes limitées, avec estimation du coût du retour.
